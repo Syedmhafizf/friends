@@ -1,0 +1,62 @@
+body {
+  width: 800px;
+  margin: 8px auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .home {
+    background: blue;
+    padding-bottom: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 1px;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 8px;
+  }
+  .home p {
+    margin-top: -15px;
+  }
+}
+.container {
+  width: 100%;
+  background: rgb(248, 242, 248);
+  margin-right: 10px;
+  padding: 10px auto;
+  margin-top: -17px;
+}
+a:hover {
+  color: blue;
+}
+.container a {
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.daftar {
+  margin: auto;
+  margin-top: 5px;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  background-image: url(//img/cipasung.jpg);
+}
+.daftar .visi {
+  border: 1px solid blue;
+  margin-right: 10px;
+}
+.daftar .misi {
+  border: 1px solid blue;
+}
+.misi,
+.visi {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
